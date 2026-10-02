@@ -1,5 +1,6 @@
+mod audio;
 use iced;
 
-pub fn main() -> iced::Result {
-    iced::run(update, view)
+pub fn main() {
+    audio::main();
 }
